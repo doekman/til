@@ -12,15 +12,23 @@ specific package.
 
 More info on [brew's FAQ][brewFaq]
 
+
 python
 ------
 
 The command `brew python` installs Python version 2.7.x, and `brew python3` installes the Python 3.5.x.
 
+
 pip
 ---
 
 With Python comes pip, the package manager for Python stuff. Type `pip3 install csvkit` to install [csvkit][] using Python 3.
+
+
+venv
+----
+[VirtualEnv](venv) will enable you to specify *per project* what Python version and packages to use... 
+
 
 
 [brew]: http://brew.sh
@@ -31,6 +39,7 @@ With Python comes pip, the package manager for Python stuff. Type `pip3 install 
 [csvkit]:
 	http://csvkit.readthedocs.io/en/0.9.1/
 	"Awesome!"
+[venv]: https://virtualenv.pypa.io/en/latest/installation/
 	
 Links:
 	
