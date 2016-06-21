@@ -16,7 +16,7 @@ More info on [brew's FAQ][brewFaq]
 python
 ------
 
-The command `brew python` installs Python version 2.7.x, and `brew python3` installes the Python 3.5.x.
+The command `brew install python` installs Python version 2.7.x, and `brew install python3` installes the Python 3.5.x.
 
 
 pip
