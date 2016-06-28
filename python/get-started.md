@@ -22,7 +22,8 @@ The command `brew install python` installs Python version 2.7.x, and `brew insta
 pip
 ---
 
-With Python comes pip, the package manager for Python stuff. Type `pip3 install csvkit` to install [csvkit][] using Python 3.
+With Python comes pip, the package manager for Python stuff. Type `pip3 install psycopg2` to install the Postgres driver 
+for [SqlAlchemy][], Python's db-driver/ORM. Type `pip install psycopg2` to install this for Python 2.
 
 
 venv
@@ -36,10 +37,9 @@ venv
 [brewFaq]: 
 	https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/FAQ.md 
 	"Brew's Frequently Asked Questions"
-[csvkit]:
-	http://csvkit.readthedocs.io/en/0.9.1/
-	"Awesome!"
 [venv]: https://virtualenv.pypa.io/en/latest/installation/
+[SqlAlchemy]:
+	https://en.wikipedia.org/wiki/SQLAlchemy
 	
 Links:
 	

@@ -1,0 +1,27 @@
+CSVKit
+======
+
+Install [csvkit][], including Postgres driver for SqlAlchemy:
+
+	pip3 install csvkit
+	pip3 install psycopg2
+
+Convert to JSON:
+
+	csvjson data.csv > data.json
+
+Import into PostgreSQL:
+
+	csvsql --db postgresql:///database --insert data.csv
+
+Extract data from PostgreSQL:
+
+	sql2csv --db postgresql:///database --query "select * from data" > extract.csv
+
+And [much more](http://csvkit.readthedocs.io/en/0.9.1/)...
+
+
+
+[csvkit]:
+	http://csvkit.readthedocs.io/en/0.9.1/
+	"Awesome!"
