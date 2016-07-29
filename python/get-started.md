@@ -31,6 +31,12 @@ venv
 [VirtualEnv](venv) will enable you to specify *per project* what Python version and packages to use... 
 
 
+gem
+---
+Gem is a packager manager for Ruby, which is needed to install [lolcat][]: `sudo gem install lolcat`.
+Try it with `ls -la | lolcat` or [this](https://gist.github.com/dakull/6615458#osx-users-can-have-fun-too).
+
+
 
 [brew]: http://brew.sh
 [doingItRight]: http://docs.python-guide.org/en/latest/starting/install/osx/#doing-it-right
@@ -40,6 +46,9 @@ venv
 [venv]: https://virtualenv.pypa.io/en/latest/installation/
 [SqlAlchemy]:
 	https://en.wikipedia.org/wiki/SQLAlchemy
+[lolcat]:
+    https://github.com/busyloop/lolcat
+wh
 	
 Links:
 	

@@ -26,3 +26,15 @@ OS X El Capitan (10.11) doesn't implement `%N` for nanoseconds (or `%3N` for mil
 [iso8601]: https://en.wikipedia.org/wiki/ISO_8601
 
 [nanoSecondsOnOsX]: http://serverfault.com/a/423642
+
+
+space cowboy
+------------
+
+A shell script to display SEE YOU SPACE COWBOY whenever you logout of your terminal!
+
+I learned that a peace of work is often better than 
+[generic](http://patorjk.com/software/taag/#p=display&f=Graceful&t=See%20You%20Space%20Cowboy) 
+[stuff](https://github.com/busyloop/lolcat) and must be appreaciated. 
+
+* <https://gist.github.com/danielrehn/d2e6f2129e5f853c3166>

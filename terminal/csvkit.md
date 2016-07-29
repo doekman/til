@@ -23,5 +23,5 @@ And [much more](http://csvkit.readthedocs.io/en/0.9.1/)...
 
 
 [csvkit]:
-	http://csvkit.readthedocs.io/en/0.9.1/
+	http://csvkit.readthedocs.io/en/latest/
 	"Awesome!"
