@@ -1,6 +1,10 @@
 Common commands
 ===============
 
+For installing stuff, you can use package managers (brew, pip, gem: see python getting started), and you also can use [Cask][cask] to install programs.
+
+[cask]: https://caskroom.github.io
+
 date
 ----
 

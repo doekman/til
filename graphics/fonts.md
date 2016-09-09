@@ -12,3 +12,14 @@ ASCII Fonts
 I always thought, people would hand craft it, but apparently there exists something like [ASCII Fonts](http://patorjk.com/software/taag/#p=display&h=2&f=Small%20Slant&t=Today%20I%20learned).
 
 * <http://patorjk.com/software/taag/>
+
+
+Special fonts
+-------------
+
+There are [Eco Fonts][ecofont], which use less ink. They have a 
+
+And there also is a monospaced font called [Fira Code][firacode] that includes special ligatures to make some code-specific character combinations look better.
+
+[ecofont]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
+[firacode]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html

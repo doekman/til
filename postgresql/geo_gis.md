@@ -13,3 +13,5 @@ While working with calculating distances with Postgresql and PostGis, I learned 
   - Notice 1: lat/lon are swapped, lon goes first (because longitude can be seen as the x-axis)
   - Notice 2: you need to cast to geography, because default it's geometry
   - When using geography, `ST_DISTANCE(point1, point2)` returns meters
+  - Use [`ST_AsEWKT(geo_column)`](http://postgis.net/docs/manual-2.1/reference.html#Geometry_Outputs) to pretty-print a column of the `geography`-type
+  
