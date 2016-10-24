@@ -10,6 +10,7 @@ Sometimes urgently needed, but almost never remembered command-line utilities on
 
 For software developmnt, one might use one or more of these obscure tools:
 
-- **otool** -- 
-- **name_xxx** --
-- **codesign** --
+- **hexdump** -- ASCII, decimal, hexadecimal, octal dump. Use "-C" for that classical PC-Tools like hexview
+- **otool** -- object file displaying tool (check dynamic libraries of binaries)
+- **install_name_tool** -- change dynamic shared library install names
+- **codesign** -- Create and manipulate code signatures
