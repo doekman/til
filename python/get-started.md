@@ -28,7 +28,7 @@ for [SqlAlchemy][], Python's db-driver/ORM. Type `pip install psycopg2` to insta
 
 venv
 ----
-[VirtualEnv](venv) will enable you to specify *per project* what Python version and packages to use... 
+[VirtualEnv][venv] will enable you to specify *per project* what Python version and packages to use... 
 
 
 gem
