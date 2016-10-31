@@ -22,13 +22,16 @@ The command `brew install python` installs Python version 2.7.x, and `brew insta
 pip
 ---
 
-With Python comes pip, the package manager for Python stuff. Type `pip3 install psycopg2` to install the Postgres driver 
-for [SqlAlchemy][], Python's db-driver/ORM. Type `pip install psycopg2` to install this for Python 2.
+With Python comes pip, the package manager for Python stuff. Type `pip3 install psycopg2` to install the Postgres driver for [SqlAlchemy][], Python's db-driver/ORM. Type `pip install psycopg2` to install this for Python 2. Or better: use *venv* and `pip` will automatically use the right Python version.
 
 
 venv
 ----
-[VirtualEnv](venv) will enable you to specify *per project* what Python version and packages to use... 
+A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. 
+
+* Create: `python3 -m venv path/to/venv`
+* Activate: `source path/to/venv/bin/activate`
+* Deactivate: `deactivate`
 
 
 gem
