@@ -4,8 +4,8 @@ CSVKit
 Install [csvkit][], including Postgres driver for SqlAlchemy:
 
 	pip3 install csvkit
-	pip3 install psycopg2
-
+	pip3 install psycopg2 (if it failes with "can't find libpq-fe.h", install this first: brew install pgcli)
+	
 Convert to JSON:
 
 	csvjson data.csv > data.json
