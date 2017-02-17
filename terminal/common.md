@@ -42,3 +42,11 @@ I learned that a peace of work is often better than
 [stuff](https://github.com/busyloop/lolcat) and must be appreaciated. 
 
 * <https://gist.github.com/danielrehn/d2e6f2129e5f853c3166>
+
+
+tools
+-----
+
+* **archey** provides nice system info (`brew install archey`)
+
+
