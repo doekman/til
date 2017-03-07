@@ -14,3 +14,10 @@ For software developmnt, one might use one or more of these obscure tools:
 - **otool** -- object file displaying tool (check dynamic libraries of binaries)
 - **install_name_tool** -- change dynamic shared library install names
 - **codesign** -- Create and manipulate code signatures
+
+
+Bugs in terminal commands
+-------------------------
+
+* __mkdir__: the `-v` option (verbose) doesn't work in combination with the `-p` (Create intermediate directories). rdar://30893732
+* __find__: it seams that with options `-type d -depth 1`, find will still walk the complete directory tree, which makes it pretty slow at times. A solution is to use `ls -F` in combination with `grep` (to filter the wanted lines) and `sed` (to remove the trailing `/`).
