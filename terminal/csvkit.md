@@ -20,7 +20,7 @@ Extract data from PostgreSQL:
 
 And [much more](http://csvkit.readthedocs.io/en/0.9.1/)...
 
-
+For diffing csv files, use [daff](http://paulfitz.github.io/daff/) (install: `pip install daff`)
 
 [csvkit]:
 	http://csvkit.readthedocs.io/en/latest/
