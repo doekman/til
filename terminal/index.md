@@ -21,3 +21,10 @@ Bugs in terminal commands
 
 * __mkdir__: the `-v` option (verbose) doesn't work in combination with the `-p` (Create intermediate directories). rdar://30893732
 * __find__: it seams that with options `-type d -depth 1`, find will still walk the complete directory tree, which makes it pretty slow at times. A solution is to use `ls -F` in combination with `grep` (to filter the wanted lines) and `sed` (to remove the trailing `/`).
+
+
+Handy resources
+---------------
+
+* [Furbo's The Terminal](http://furbo.org/2014/09/03/the-terminal/)
+* [Mac Terminal Tips](https://mjtsai.com/blog/2016/09/26/mac-terminal-tips/)
