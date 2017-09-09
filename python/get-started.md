@@ -18,6 +18,12 @@ python
 
 The command `brew install python` installs Python version 2.7.x, and `brew install python3` installes the Python 3.5.x.
 
+Activate a previously installed version of a formula (because Debian doesn't have 3.6 installed yet):
+
+    brew info python3
+    brew switch python3 3.5.2_3
+    brew pin python3
+
 
 pip
 ---
