@@ -24,6 +24,19 @@ Activate a previously installed version of a formula (because Debian doesn't hav
     brew switch python3 3.5.2_3
     brew pin python3
 
+If you've never installed the previous Python version, but want to:
+
+		git clone git@github.com:Homebrew/homebrew-core.git      #Clone locally, because GitHub thinks the repo is 
+		cd homebrew-core/Formula/                                #  to complex to search
+		git log python3.rb                                       #Find the hash of the version you want
+		git rev-parse 1e62c645b2                                 #Get the full hash
+		git checkout 1e62c645b2fc2d82042d9f7c364c6a246f2e11ed .  #And go back to the version
+		brew uninstall python3                                   #Uninstall python3 (files stay on your computer)
+		brew install ./python3.rb                                #and install the old version
+		pip3 install --upgrade pip setuptools wheel
+		#don't forget to upgrade your virtual environments
+		git reset --hard                                         #and optionally reset the git-repo to the current head
+
 
 pip
 ---
