@@ -2,7 +2,9 @@ Debian commands
 ---------------
 
 * Login as root: `su` (or `su -m` to preserve the environment)
-* Change password: `passwd`
+* Create user: `adduser LOGIN`
+	- Change password: `passwd LOGIN`
+	- Create home: `mkdir /home/LOGIN; chown LOGIN:users /home/LOGIN` 
 * Passwordless login: append local `~/.ssh/id_rsa.pub` to remote file `~/.ssh/authorized_keys`
 * Determine Debian version: `cat /etc/debian_version`
 
