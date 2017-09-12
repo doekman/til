@@ -21,5 +21,8 @@ There are [Eco Fonts][ecofont], which use less ink. They have a
 
 And there also is a monospaced font called [Fira Code][firacode] that includes special ligatures to make some code-specific character combinations look better.
 
+Finally, [the lato font][latofont], a high-quality open-source font family, is pretty good.
+
 [ecofont]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
 [firacode]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
+[latofont]: http://www.latofonts.com 
