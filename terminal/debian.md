@@ -5,6 +5,7 @@ Debian commands
 * Create user: `adduser LOGIN`
 	- Change password: `passwd LOGIN`
 	- Create home: `mkdir /home/LOGIN; chown LOGIN:users /home/LOGIN` 
+	- Login as this user: `su -m -s /bin/bash LOGIN` (`login LOGIN` doesn't work)
 * Passwordless login: append local `~/.ssh/id_rsa.pub` to remote file `~/.ssh/authorized_keys`
 * Determine Debian version: `cat /etc/debian_version`
 
