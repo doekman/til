@@ -1,5 +1,8 @@
+On Types
+========
+
 On Text
-=======
+-------
 
 Text is an ordered series of Unicode characters, also known as string. Some basic operations:
 
@@ -9,6 +12,16 @@ Text is an ordered series of Unicode characters, also known as string. Some basi
 	set t to t & " to you!" -- concat
 	set t to "He said \"Use the '\\' character.\"" --escape quotes and backslashes
 	set special_characters to space & tab & return & linefeed & quote --text constants
+
+
+On Lists
+--------
+
+
+
+On Records
+----------
+
 
 
 Shell interaction
