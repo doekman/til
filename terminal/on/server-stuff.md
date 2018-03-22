@@ -4,7 +4,7 @@ macOS server stuff
 Commands:
 
     serveradmin
-
+    profiles
 
 Directory binding
 -----------------
