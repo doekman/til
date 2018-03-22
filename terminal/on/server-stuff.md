@@ -32,6 +32,13 @@ Commands:
     groups #same as `id -Gn`
 
 
+FS Security
+-----------
+
+* chmod
+* chown
+
+
 Network shares
 --------------
 
