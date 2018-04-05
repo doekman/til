@@ -14,6 +14,11 @@ Rebase your branch on top of the main branch, resolve conflict, and then merge. 
 
 This and more [from Stackoverflow](http://stackoverflow.com/a/15006856)
 
+Check in which commit a file changed:
+
+    git log --follow path/to/file
+
+
 Resources:
 
 * [Changing History, or How to Git Pretty](http://justinhileman.info/article/git-pretty/)

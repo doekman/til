@@ -35,8 +35,15 @@ Commands:
 FS Security
 -----------
 
+* ls -le@
+    - `e` for displaying ACL
+    - `@` for displaying extend attributes
 * chmod
 * chown
+* chflags
+* xattr
+
+[Managing Permissions via Command Line](http://www.peachpit.com/articles/article.aspx?p=1403238&seqNum=7).
 
 
 Network shares
