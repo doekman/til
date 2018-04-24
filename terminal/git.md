@@ -25,3 +25,4 @@ Resources:
 * [Better Git configuration](https://hn.premii.com/#/article/14045787)
 * [secretGeek: TIL git summary](https://til.secretgeek.net/git/01_summary.html)
 * [GitHub Flow Like a Pro](https://haacked.com/archive/2014/07/28/github-flow-aliases/)
+* [CSVs and Git](https://frictionlessdata.io/docs/csv/)

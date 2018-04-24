@@ -5,6 +5,8 @@ Commands:
 
     serveradmin
     profiles
+    systemsetup
+
 
 Directory binding
 -----------------
@@ -35,15 +37,19 @@ Commands:
 FS Security
 -----------
 
-* ls -le@
+* ls -le@O
     - `e` for displaying ACL
     - `@` for displaying extend attributes
+    - `O` (capital O) for displaying [SIP][] and flags information
 * chmod
 * chown
 * chflags
 * xattr
 
-[Managing Permissions via Command Line](http://www.peachpit.com/articles/article.aspx?p=1403238&seqNum=7).
+Links:
+
+* [Managing Permissions via Command Line](http://www.peachpit.com/articles/article.aspx?p=1403238&seqNum=7).
+* [Demystifying `root` on macOS, Part 1](https://scriptingosx.com/2018/04/demystifying-root-on-macos-part-1/)
 
 
 Network shares
@@ -52,5 +58,13 @@ Network shares
 Commands: 
 
     sharing
+    sudo sharing -e _handboek -n Intranet_handboek #renamen van een share zonder de folder-naam te wijzigen
     sudo serveradmin fullstatus smb
 
+
+MaxFocus
+--------
+
+The [MaxFocus'](https://www.solarwindsmsp.com/product/login "MSP Remote Management & Management") _Advanced Monitoring Agent.app_ stores it's configuration at the location `/usr/local/rmmagent`.
+
+[SIP]:    https://support.apple.com/en-us/HT204899
