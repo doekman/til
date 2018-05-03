@@ -59,7 +59,10 @@ Commands:
 
     sharing
     sudo sharing -e _handboek -n Intranet_handboek #renamen van een share zonder de folder-naam te wijzigen
-    sudo serveradmin fullstatus smb
+    man nsmb.conf
+    sudo serveradmin fullstatus smb #vooral: smb:currentConnections
+    sudo serveradmin settings smb
+    sudo serveradmin command smb:command = getConnectedUsers #Opvragen aangesloten gebruikers
 
 
 MaxFocus

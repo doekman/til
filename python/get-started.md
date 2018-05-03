@@ -26,13 +26,13 @@ Activate a previously installed version of a formula (because Debian doesn't hav
 
 If you've never installed the previous Python version, but want to:
 
-    brew3 list                                               #You probably need to install them again
+    brew list                                                #You probably need to install them again
     git clone git@github.com:Homebrew/homebrew-core.git      #Clone locally, because GitHub thinks the repo is 
     cd homebrew-core/Formula/                                #  to complex to search
     git log python3.rb                                       #Find the hash of the version you want
     git rev-parse 1e62c645b2                                 #Get the full hash (hash of Python 3.5.2_3)
     git checkout 1e62c645b2fc2d82042d9f7c364c6a246f2e11ed .  #And go back to the version
-    brew uninstall python3                                   #Uninstall python3 (files stay on your computer)
+    brew uninstall --ignore-dependencies python3             #Uninstall python3 (files stay on your computer)
     brew install ./python3.rb                                #and install the old version
     brew pin python3
     pip3 install --upgrade pip setuptools wheel
@@ -57,7 +57,7 @@ A Virtual Environment is a tool to keep the dependencies required by different p
 
 gem
 ---
-Gem is a packager manager for Ruby, which is needed to install [lolcat][]: `sudo gem install lolcat`.
+Gem is a packager manager for Ruby, which is needed to install [lolcat][]: `gem install lolcat`.
 Try it with `ls -la | lolcat` or [this](https://gist.github.com/dakull/6615458#osx-users-can-have-fun-too).
 
 
