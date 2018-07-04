@@ -26,6 +26,8 @@ Users and groups
     dscl localhost delete /Local/Default/Users/doeke
     # Create mobile user
     /System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -n network_account_username_goes_here
+    # Search (see:  https://scriptingosx.com/2018/07/parsing-dscl-output-in-scripts/)
+    dscl /Search read /Users/Doeke UniqueID
 
 Commands:
 
