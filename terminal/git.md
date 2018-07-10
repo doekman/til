@@ -18,6 +18,12 @@ Check in which commit a file changed:
 
     git log --follow path/to/file
 
+Switch to a branch that is available remote:
+
+    git branch --all
+    git checkout remotes/origin/xxxx
+    git checkout -b xxxx
+
 
 Resources:
 
