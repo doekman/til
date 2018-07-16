@@ -14,6 +14,19 @@ Rebase your branch on top of the main branch, resolve conflict, and then merge. 
 
 This and more [from Stackoverflow](http://stackoverflow.com/a/15006856)
 
+
+Sync fork
+---------
+
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+    git push
+
+
+Other
+-----
+
 Check in which commit a file changed:
 
     git log --follow path/to/file
