@@ -19,10 +19,12 @@ Special fonts
 
 There are [Eco Fonts][ecofont], which use less ink. They have a 
 
-And there also is a monospaced font called [Fira Code][firacode] that includes special ligatures to make some code-specific character combinations look better.
+And there also is a monospaced font called [Fira Code][firacode] that includes special ligatures to make some code-specific character combinations look better. And [Fantasque Sans Mono][fantasque]: a font family with a great monospaced variant for programmers. 
 
-Finally, [the lato font][latofont], a high-quality open-source font family, is pretty good.
+Finally, [the lato font][latofont], a pretty good open-source font family.
+
 
 [ecofont]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
 [firacode]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
 [latofont]: http://www.latofonts.com 
+[fantasque]: https://github.com/belluzj/fantasque-sans
