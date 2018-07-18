@@ -17,14 +17,20 @@ I always thought, people would hand craft it, but apparently there exists someth
 Special fonts
 -------------
 
-There are [Eco Fonts][ecofont], which use less ink. They have a 
+There are [Eco Fonts][ecofont], which use less ink ([Economica][]¹ is availble via _homebrew_).
 
-And there also is a monospaced font called [Fira Code][firacode] that includes special ligatures to make some code-specific character combinations look better. And [Fantasque Sans Mono][fantasque]: a font family with a great monospaced variant for programmers. 
+And there also is a monospaced font called [Fira Code][firacode]¹ that includes special ligatures to make some code-specific character combinations look better. And [Fantasque Sans Mono][fantasque]¹: a font family with a great monospaced variant for programmers. 
 
-Finally, [the lato font][latofont], a pretty good open-source font family.
+Finally, [the lato font][latofont]¹, a pretty good open-source font family.
+
+¹) Available via _homebrew_:
+
+    brew tap homebrew/cask-fonts
+    brew cask install font-economica font-fira-code font-fantasque-sans-mono font-lato
 
 
 [ecofont]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
+[Economica]: https://fonts.google.com/specimen/Economica
 [firacode]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
 [latofont]: http://www.latofonts.com 
 [fantasque]: https://github.com/belluzj/fantasque-sans
