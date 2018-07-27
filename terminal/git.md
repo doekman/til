@@ -36,6 +36,7 @@ Switch to a branch that is available remote:
     git branch --all
     git checkout remotes/origin/xxxx
     git checkout -b xxxx
+    git branch --set-upstream-to=origin/xxxx xxxx
 
 
 Resources:
