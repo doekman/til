@@ -21,12 +21,12 @@ There are [Eco Fonts][ecofont], which use less ink ([Economica][]¹ is availble 
 
 And there also is a monospaced font called [Fira Code][firacode]¹ that includes special ligatures to make some code-specific character combinations look better. And [Fantasque Sans Mono][fantasque]¹: a font family with a great monospaced variant for programmers. 
 
-Finally, [the lato font][latofont]¹, a pretty good open-source font family.
+Also, [the lato font][latofont]¹, a pretty good open-source font family. Finally, a replacement for Comic Sans: [Comic Neue][comicneue]¹.
 
 ¹) Available via _homebrew_:
 
     brew tap homebrew/cask-fonts
-    brew cask install font-economica font-fira-code font-fantasque-sans-mono font-lato
+    brew cask install font-economica font-fira-code font-fantasque-sans-mono font-lato font-comic-neue
 
 
 [ecofont]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
@@ -34,3 +34,4 @@ Finally, [the lato font][latofont]¹, a pretty good open-source font family.
 [firacode]: http://www.ecofont.com/en/products/green/font/download-the-ink-saving-font.html
 [latofont]: http://www.latofonts.com 
 [fantasque]: https://github.com/belluzj/fantasque-sans
+[comicneue]: http://www.comicneue.com
