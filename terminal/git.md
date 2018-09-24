@@ -27,6 +27,10 @@ Sync fork
 Other
 -----
 
+Origin of all config-values:
+
+    git config -l --show-origin
+
 Check in which commit a file changed:
 
     git log --follow path/to/file
