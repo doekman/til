@@ -28,3 +28,7 @@ Handy resources
 
 * [Furbo's The Terminal](http://furbo.org/2014/09/03/the-terminal/)
 * [Mac Terminal Tips](https://mjtsai.com/blog/2016/09/26/mac-terminal-tips/)
+* [Scripting Bash](https://scriptingosx.com/bash/)  - Scripting OS X
+* [Bash-It](https://github.com/Bash-it/bash-it) - Bash-it is a collection of community Bash commands and scripts for Bash 3.2+. (And a shameless ripoff of oh-my-zsh 😃)
+  - [Yonce](https://yoncetheme.com) - A Queen Bey inspired theme for Bash-It
+
