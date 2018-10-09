@@ -9,6 +9,16 @@ Commands:
     sysadminctl
 
 
+SecureToken
+-----------
+
+As part of Apple File System’s FileVault encryption on mac OS High Sierra, [Apple introduced Secure Token](https://derflounder.wordpress.com/2018/01/20/secure-token-and-filevault-on-apple-file-system/). This is a new and undocumented account attribute, which is now required to be added to a user account before that account can be enabled for FileVault on an encrypted Apple File System (APFS) volume. 
+
+    sysadminctl -secureTokenStatus "$USER" #check
+    sysadminctl -secureTokenOn "$USER" -password - -adminUser archipuntadmin -adminPassword - #enable
+
+
+
 Directory binding
 -----------------
 
