@@ -57,6 +57,7 @@ FS Security
 * chmod
 * chown
 * chflags
+  - `sudo chflags -R nouchg BUNDLE` -- Remove `Locked` (`Beveiligd`) checkbox in Finder
 * xattr
 
 Links:
