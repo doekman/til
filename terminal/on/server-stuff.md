@@ -58,6 +58,8 @@ FS Security
 * chown
 * chflags
   - `sudo chflags -R nouchg BUNDLE` -- Remove `Locked` (`Beveiligd`) checkbox in Finder
+  - You can use `ls -lO` to see the flags of existing files.
+
 * xattr
 
 Links:
