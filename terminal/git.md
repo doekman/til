@@ -1,6 +1,14 @@
 Git
 ===
 
+First aid-
+----------
+
+* <http://justinhileman.info/article/git-pretty/>
+* <http://ohshitgit.com>
+
+
+
 Merge branch without losing history
 -----------------------------------
 
