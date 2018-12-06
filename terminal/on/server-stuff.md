@@ -7,7 +7,7 @@ Commands:
     serveradmin
     systemsetup
     sysadminctl
-
+    fdesetup     # FileVault configuration tool
 
 SecureToken
 -----------

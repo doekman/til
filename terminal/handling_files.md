@@ -12,3 +12,9 @@ with `mdls -name kMDItemVersion MyPdfFile.pdf`, you can determine the PDF versio
 Omitting the `-name value` part, lists all properties of the file.
 
 * <https://www.macissues.com/2014/05/12/how-to-look-up-file-metadata-in-os-x/>
+
+
+Undelete
+--------
+
+Use `photorec` (part of `brew info testdisk`) to make it confusing. You can test disks and search for removed files.
