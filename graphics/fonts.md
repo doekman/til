@@ -23,6 +23,8 @@ And there also is a monospaced font called [Fira Code][firacode]¹ that includes
 
 Also, [the lato font][latofont]¹, a pretty good open-source font family. Finally, a replacement for Comic Sans: [Comic Neue][comicneue]¹.
 
+Free programming fonts: <http://app.programmingfonts.org/#source-code-pro>
+
 ¹) Available via _homebrew_:
 
     brew tap homebrew/cask-fonts
