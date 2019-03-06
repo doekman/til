@@ -11,7 +11,7 @@ Debian commands
 	- toevoegen secundaire groepen: `usermod -a -G GROUP-NAME USER-NAME`
 * Passwordless login: append local `~/.ssh/id_rsa.pub` to remote file `~/.ssh/authorized_keys`
 * Determine Debian version: `cat /etc/debian_version`
-
+* `man page` [systemctl](https://manpages.debian.org/stretch/systemd/systemctl.1.en.html)
 
 Package manager
 ---------------
