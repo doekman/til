@@ -48,5 +48,5 @@ tools
 -----
 
 * **archey** provides nice system info (`brew install archey`)
-
+* **csrutil status** shows SIP (System Integrity Protection) status
 
