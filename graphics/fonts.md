@@ -25,6 +25,10 @@ Also, [the lato font][latofont]¹, a pretty good open-source font family. Finall
 
 Free programming fonts: <http://app.programmingfonts.org/#source-code-pro>
 
+Fun-fonts:
+
+* [Hellvetica][hellvetica]: Kern in hell
+
 ¹) Available via _homebrew_:
 
     brew tap homebrew/cask-fonts
@@ -37,3 +41,4 @@ Free programming fonts: <http://app.programmingfonts.org/#source-code-pro>
 [latofont]: http://www.latofonts.com 
 [fantasque]: https://github.com/belluzj/fantasque-sans
 [comicneue]: http://www.comicneue.com
+[hellvetica]: https://hellveticafont.com
