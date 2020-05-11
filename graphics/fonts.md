@@ -28,6 +28,9 @@ Free programming fonts: <http://app.programmingfonts.org/#source-code-pro>
 Fun-fonts:
 
 * [Hellvetica][hellvetica]: Kern in hell
+* Convincing-looking [90s fonts][90s] in modern browsers
+
+---
 
 ¹) Available via _homebrew_:
 
@@ -42,3 +45,4 @@ Fun-fonts:
 [fantasque]: https://github.com/belluzj/fantasque-sans
 [comicneue]: http://www.comicneue.com
 [hellvetica]: https://hellveticafont.com
+[90s]: https://vistaserv.net/blog/90s-fonts-modern-browsers
